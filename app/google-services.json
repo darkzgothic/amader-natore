@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "701785530095",
+    "firebase_url": "https://amadernatore-f8a7f.firebaseio.com",
+    "project_id": "amadernatore-f8a7f",
+    "storage_bucket": "amadernatore-f8a7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701785530095:android:2876af883817e409",
+        "android_client_info": {
+          "package_name": "com.kpsoftwaresolutions.amadernatoreapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701785530095-nrsm007can8o7i5u2h7qsn11fjdq4ob6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kpsoftwaresolutions.amadernatoreapp",
+            "certificate_hash": "9a2a95fdb9a5905c1698a0b25d4afc6338d4f08f"
+          }
+        },
+        {
+          "client_id": "701785530095-ocs78591fr6t853ctkjlrvbq6cmpq3i4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs-iUI0fmTjFqvQv9wlxeA7n0lmXM3lr0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701785530095-ocs78591fr6t853ctkjlrvbq6cmpq3i4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

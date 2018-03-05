@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCEDC8"
+    tools:context="com.kpsoftwaresolutions.amadernatoreapp.activities.UpozillaUnionActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5910423341335020/5841521955"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true">
+    </com.google.android.gms.ads.AdView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_above="@id/adView">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:id="@+id/table1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:layout_marginTop="0dp">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:typeface="serif"
+                    android:textColor="#5f0341"
+                    android:textStyle="bold"
+                    android:autoLink="web"
+                    android:text="নাটোর সদর \n http://natoresadar.natore.gov.bd/"/>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="#0e0109"
+                        android:typeface="serif"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp"
+                        android:autoLink="web"
+                        android:text="@string/nator_sodor_upo_uni"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true" />
+                </TableLayout>
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/table2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:layout_below="@+id/table1"
+                android:layout_marginTop="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:typeface="serif"
+                    android:textColor="#5f0341"
+                    android:textStyle="bold"
+                    android:autoLink="web"
+                    android:text="সিংড়া \n http://singra.natore.gov.bd/"/>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="#0e0109"
+                        android:typeface="serif"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp"
+                        android:autoLink="web"
+                        android:text="@string/singra_upo_uni"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true" />
+                </TableLayout>
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/table3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:layout_below="@+id/table2"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:typeface="serif"
+                    android:textColor="#5f0341"
+                    android:textStyle="bold"
+                    android:autoLink="web"
+                    android:text="গুরুদাসপুর\n http://gurudaspur.natore.gov.bd/"/>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="#0e0109"
+                        android:typeface="serif"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp"
+                        android:autoLink="web"
+                        android:text="@string/gurudaspur_upo_uni"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true" />
+                </TableLayout>
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/table4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:layout_below="@+id/table3"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:typeface="serif"
+                    android:textColor="#5f0341"
+                    android:textStyle="bold"
+                    android:autoLink="web"
+                    android:text="বড়াইগ্রাম \n http://baraigram.natore.gov.bd/"/>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="#0e0109"
+                        android:typeface="serif"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp"
+                        android:autoLink="web"
+                        android:text="@string/boraigram_upo_zilla"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true" />
+                </TableLayout>
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/table5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:layout_below="@+id/table4"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/tv8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:typeface="serif"
+                    android:textColor="#5f0341"
+                    android:textStyle="bold"
+                    android:autoLink="web"
+                    android:text="লালপুর \nhttp://lalpur.natore.gov.bd/"/>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="#0e0109"
+                        android:typeface="serif"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp"
+                        android:autoLink="web"
+                        android:text="@string/lalpur_upo_uni"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true" />
+                </TableLayout>
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/table6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:layout_below="@+id/table5"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/tv10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:typeface="serif"
+                    android:textColor="#5f0341"
+                    android:textStyle="bold"
+                    android:autoLink="web"
+                    android:text="বাগাতিপাড়া \nhttp://bagatipara.natore.gov.bd/"/>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="#0e0109"
+                        android:typeface="serif"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp"
+                        android:autoLink="web"
+                        android:text="@string/bagatipara_uni_upo"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true" />
+                </TableLayout>
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/table7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:layout_below="@+id/table6"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/tv12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:typeface="serif"
+                    android:textColor="#5f0341"
+                    android:textStyle="bold"
+                    android:autoLink="web"
+                    android:text="নলডাঙ্গা \nhttp://naldanga.natore.gov.bd/"/>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="#0e0109"
+                        android:typeface="serif"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp"
+                        android:autoLink="web"
+                        android:text="@string/noldanga_upo_uni"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true" />
+                </TableLayout>
+            </TableLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

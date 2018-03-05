@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ac_amader_natore"
+            android:icon="@drawable/home"
+            android:title="@string/app_name" />
+        <item
+            android:id="@+id/about_dis"
+            android:icon="@drawable/jela"
+            android:title="@string/jela_somporkrito" />
+        <item
+            android:id="@+id/local_gov"
+            android:icon="@drawable/local"
+            android:title="@string/local_gov" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/photo"
+            android:title="@string/photo_gallary" />
+        <item
+            android:id="@+id/e_service"
+            android:icon="@drawable/internet"
+            android:title="@string/e_service" />
+        <item
+            android:id="@+id/gov_office"
+            android:icon="@drawable/office"
+            android:title="@string/gov_office" />
+        <item
+            android:id="@+id/other_institute"
+            android:icon="@drawable/institute"
+            android:title="@string/other_institute" />
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/map"
+            android:title="@string/map" />
+        <item
+            android:id="@+id/call"
+            android:icon="@drawable/call"
+            android:title="@string/imp_phn_call" />
+    </group>
+
+</menu>
